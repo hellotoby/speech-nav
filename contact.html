@@ -1,0 +1,44 @@
+<html>
+    
+    <head>
+        
+        <title>Speech Navigation</title>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <link rel="stylesheet" href="/css/common.css">
+    
+    </head>
+
+    <body class="contact">
+        
+        <main>
+
+            <nav>
+                <ul>
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="/about" title="About">About</a></li>
+                    <li><a href="/contact" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button id="rec"><object class="mic" type="image/svg+xml" data="/img/microphone.svg"></object></button>
+
+            <input id="input" type="text">
+
+            <p>Click the microphone icon and say <i>"Go to about"</i></p>
+            <p class="hint">Hint: It also works with other synonyms"</p>
+
+            <h1>Contact</h1>
+
+            <!--<br>Response<br> <textarea id="response" cols="40" rows="20"></textarea>-->
+        
+        </main>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="/js/apikeys.js"></script>
+        <script src="/js/speech.js"></script>
+
+    </body>
+
+</html>

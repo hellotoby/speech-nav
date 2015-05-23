@@ -67,7 +67,7 @@ function setInput(text) {
 }
 
 function updateRec() {
-    $("#rec").text(recognition ? "Stop" : "Speak");
+    //$("#rec").text(recognition ? "Stop" : "Speak");
 }
 
 function send() {
@@ -84,7 +84,15 @@ function send() {
         data: JSON.stringify({ q: text, lang: "en" }),
 
         success: function(data) {
+            var route = data.result.parameters.route;
             setResponse(JSON.stringify(data, undefined, 2));
+            setTimeout(function() {
+                if( route == 'home') {
+                    window.location.href = '/';
+                } else {
+                    window.location.href = '/' + route;   
+                }
+            }, 200);
         },
         error: function() {
             setResponse("Internal Server Error");

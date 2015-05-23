@@ -2,28 +2,38 @@
     
     <head>
         
-        <title>API Example</title>
+        <title>Speech Navigation</title>
         
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
         <link rel="stylesheet" href="/css/common.css">
-
-        <style type="text/css">
-            body { width: 500px; margin: 0 auto; text-align: center; margin-top: 20px; }
-            div {  position: absolute; }
-            input { width: 400px; }
-            button { width: 50px; }
-            textarea { width: 100%; }
-        </style>
     
     </head>
 
     <body>
         
-        <div>
-            <input id="input" type="text"> <button id="rec">Speak</button>
-            <br>Response<br> <textarea id="response" cols="40" rows="20"></textarea>
-        </div>
+        <main>
+
+            <nav>
+                <ul>
+                    <li><a href="/" title="Home">Home</a></li>
+                    <li><a href="/about" title="About">About</a></li>
+                    <li><a href="/contact" title="Contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button id="rec"></object></button>
+
+            <input id="input" type="text">
+
+            <p>Click the microphone icon and say <i>"Navigate to contact"</i></p>
+            <p class="hint">Hint: It also works with other synonyms"</p>
+
+            <h1>Home</h1>
+
+            <!--<br>Response<br> <textarea id="response" cols="40" rows="20"></textarea>-->
+        
+        </main>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="/js/apikeys.js"></script>

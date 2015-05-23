@@ -8,6 +8,7 @@ var port = process.env.PORT || 8000;
 
 app.use("/css", staticFiles(__dirname + '/css'));
 app.use("/js", staticFiles(__dirname + '/js'));
+app.use("/img", staticFiles(__dirname + '/img'));
 
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
