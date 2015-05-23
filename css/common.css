@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+a {
+    display: block;
+    padding: 40px 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.home {
+    background: #34495e;
+    color: #FFF;
+}
+
+.one {
+    background: #2ecc71;
+    color: #FFF;
+}
+
+.two {
+    background: #3498db;
+    color: #FFF;
+}
+
+.three {
+    background: #9b59b6;
+    color: #FFF;
+}
+
+.four {
+    background: #e74c3c;
+    color: #FFF;
+}
+

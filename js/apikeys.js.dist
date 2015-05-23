@@ -1,0 +1,2 @@
+var accessToken     = "<ACCESS TOKEN>";
+var subscriptionKey = "<SUBSCRIPTION KEY>";

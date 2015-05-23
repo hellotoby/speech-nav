@@ -1,0 +1,15 @@
+{
+  "name": "Speech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toby Vervaart",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-static": "^1.0.3"
+  }
+}
