@@ -1,5 +1,7 @@
 # Website navigation using speech
 
+![Speech nav](http://au.com.lvfrvr.s3.amazonaws.com/speech-nav.jpg)
+
 Website navigation demo using webkitSpeechRecognition and [api.ai](http://api.ai)
 
 ### Installation
